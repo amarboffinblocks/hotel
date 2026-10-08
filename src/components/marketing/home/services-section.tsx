@@ -1,10 +1,46 @@
+"use client";
+
 import Image from "next/image";
+import { useQuery } from "@tanstack/react-query";
 
 import { Container } from "@/components/common/container";
 import { SectionWrapper } from "@/components/common/section-wrapper";
-import { services, servicesBackdropImage } from "@/data/content";
+import { services as seedServices, servicesBackdropImage, type Service } from "@/data/content";
+import { api } from "@/features/admin/api/client";
+import { resourceQueryKey } from "@/features/admin/hooks/use-resource-api";
+
+function ServicesGrid({ list }: { list: Service[] }) {
+  return (
+    <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-4">
+      {list.map((service) => (
+        <div
+          key={service.id}
+          className="group flex h-full flex-col rounded-sm bg-primary/10 p-5 transition duration-300 hover:-translate-y-0.5 hover:bg-primary/15 sm:p-6"
+        >
+          <div className="mb-4 font-sans text-3xl font-bold tracking-tight text-primary select-none sm:mb-5 sm:text-4xl">
+            {service.number}
+          </div>
+          <h3 className="mb-2 text-base font-bold tracking-tight text-foreground sm:text-lg">
+            {service.title}
+          </h3>
+          <p className="text-xs leading-relaxed text-muted-foreground sm:text-[13px]">
+            {service.description}
+          </p>
+        </div>
+      ))}
+    </div>
+  );
+}
 
 export function ServicesSection() {
+  const { data } = useQuery({
+    queryKey: resourceQueryKey("services"),
+    queryFn: () => api.list<Service>("services"),
+    placeholderData: seedServices,
+  });
+
+  const list = data ?? seedServices;
+
   return (
     <SectionWrapper spacing="none" className="relative bg-white">
       <div className="sticky top-0 h-[70svh] w-full overflow-hidden bg-secondary sm:h-[78svh] lg:h-[90svh]">
@@ -28,25 +64,7 @@ export function ServicesSection() {
           <h2 className="font-heading mb-8 max-w-xl text-3xl tracking-tight text-foreground sm:text-4xl lg:mb-10 lg:text-5xl">
             Everything you need.
           </h2>
-
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-4">
-            {services.map((service) => (
-              <div
-                key={service.number}
-                className="group flex h-full flex-col rounded-sm bg-primary/10 p-5 transition duration-300 hover:-translate-y-0.5 hover:bg-primary/15 sm:p-6"
-              >
-                <div className="mb-4 font-sans text-3xl font-bold tracking-tight text-primary select-none sm:mb-5 sm:text-4xl">
-                  {service.number}
-                </div>
-                <h3 className="mb-2 text-base font-bold tracking-tight text-foreground sm:text-lg">
-                  {service.title}
-                </h3>
-                <p className="text-xs leading-relaxed text-muted-foreground sm:text-[13px]">
-                  {service.description}
-                </p>
-              </div>
-            ))}
-          </div>
+          <ServicesGrid list={list} />
         </Container>
       </div>
     </SectionWrapper>

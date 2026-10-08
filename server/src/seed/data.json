@@ -1,0 +1,517 @@
+{
+  "rooms": [
+    {
+      "slug": "deluxe-room",
+      "name": "Deluxe Room",
+      "view": "City View",
+      "guests": 2,
+      "sizeSqFt": 320,
+      "bedType": "King bed",
+      "pricePerNight": 8500,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuARXuEHHpGSumfL3fITMKQ_tmX0vRpMi_anKT4xnNxm_zma_E6mAvygWIoGYOyOssLvfk-DLBMDxA0WItumxjRyjE-RkRZXQ32AbzKLmpUaiy0XrVq7siOo09kk3tvYm7YwXjkACmYg15rilMf1wyGbj7PzMrLx9S5K7t53bzyNG_veAF4l0GCXU61y6HZau7ix0hWnSrBzWaip_S9JCkSc-cY2QNYkZOuP_tdy0UiHvvS8QXFLem-_",
+      "gallery": [
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuARXuEHHpGSumfL3fITMKQ_tmX0vRpMi_anKT4xnNxm_zma_E6mAvygWIoGYOyOssLvfk-DLBMDxA0WItumxjRyjE-RkRZXQ32AbzKLmpUaiy0XrVq7siOo09kk3tvYm7YwXjkACmYg15rilMf1wyGbj7PzMrLx9S5K7t53bzyNG_veAF4l0GCXU61y6HZau7ix0hWnSrBzWaip_S9JCkSc-cY2QNYkZOuP_tdy0UiHvvS8QXFLem-_",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Thoughtfully appointed space with refined furnishings and a restful city outlook.",
+      "longDescription": "Our Deluxe Room is designed for unhurried city stays — soft lighting, tailored linens, and a calm workspace overlooking the skyline. Ideal for couples or solo travellers who want comfort without excess.",
+      "highlights": [
+        "Floor-to-ceiling city outlook",
+        "Rain shower with premium toiletries",
+        "Dedicated work desk with USB charging",
+        "Blackout curtains for restful sleep"
+      ],
+      "amenities": [
+        "King bed",
+        "Rain shower",
+        "Work desk",
+        "Complimentary Wi-Fi",
+        "Smart TV",
+        "Mini fridge",
+        "In-room safe",
+        "Climate control"
+      ],
+      "included": [
+        "Daily housekeeping",
+        "Bottled water refreshed daily",
+        "Access to fitness centre",
+        "High-speed Wi-Fi"
+      ]
+    },
+    {
+      "slug": "executive-room",
+      "name": "Executive Room",
+      "view": "City View",
+      "guests": 2,
+      "sizeSqFt": 380,
+      "bedType": "King bed",
+      "pricePerNight": 11500,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDsi2oBZbsBJk1FpCY-MoJFi7QEwFRoGm5pAZiEdR2emjb-Ws2c8Z8PKVPOEDvd8SIky92HZvKzmOzLu3S0x3GRp3G8gnLwsHaXJYNipvcOCbhHUhPbClVXqD8SwoJMsKlLv8AtPEDsSoQq0dBJZmcluBcRW0Kz99rOeN1Am49AANbiisKgN8PmDrcmwsklR8mqEuAASctos3UMZ2kL_3wuFRmkffNOmYnbB2NQHoBJrpoA90STbksV",
+      "gallery": [
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDsi2oBZbsBJk1FpCY-MoJFi7QEwFRoGm5pAZiEdR2emjb-Ws2c8Z8PKVPOEDvd8SIky92HZvKzmOzLu3S0x3GRp3G8gnLwsHaXJYNipvcOCbhHUhPbClVXqD8SwoJMsKlLv8AtPEDsSoQq0dBJZmcluBcRW0Kz99rOeN1Am49AANbiisKgN8PmDrcmwsklR8mqEuAASctos3UMZ2kL_3wuFRmkffNOmYnbB2NQHoBJrpoA90STbksV",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Extra space and elevated amenities for guests who value comfort and quiet productivity.",
+      "longDescription": "The Executive Room pairs a generous layout with lounge seating and a proper work zone — so mornings feel productive and evenings feel considered. A refined choice for longer stays and business travel.",
+      "highlights": [
+        "Separate lounge seating area",
+        "Nespresso machine & mini bar",
+        "Enhanced toiletries & soft robes",
+        "Priority late check-out (subject to availability)"
+      ],
+      "amenities": [
+        "King bed",
+        "Lounge seating",
+        "Mini bar",
+        "Nespresso",
+        "Complimentary Wi-Fi",
+        "Smart TV",
+        "Bathrobe & slippers",
+        "In-room safe"
+      ],
+      "included": [
+        "Daily housekeeping",
+        "Evening turndown on request",
+        "Access to fitness centre",
+        "Complimentary Wi-Fi"
+      ]
+    },
+    {
+      "slug": "premium-suite",
+      "name": "Premium Suite",
+      "view": "Pool View",
+      "guests": 2,
+      "sizeSqFt": 520,
+      "bedType": "King bed",
+      "pricePerNight": 16500,
+      "popular": true,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDydMiL1_aHyooE1XvzwZn7PY3LEIWioWBNgWsCSngdLdWLih3jcdeDgFCwchP00AaZQ-8p3pWUoBbyjHGGGINgvTdxyTe8c0NHaQ_-BKDczKfoRA6wLOw3g-Tq-Jh9YuYRgvNmGu3FqXcwR7BYG5j77CRdyK2XfmktEW7HPqciHZIeltSLRjohtAugUT0qC6HB1TtfrnfrbDs0bNnNHyZfqVFDob3Fn5MkYk87lPwFDI56OGzoj0C5",
+      "gallery": [
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDydMiL1_aHyooE1XvzwZn7PY3LEIWioWBNgWsCSngdLdWLih3jcdeDgFCwchP00AaZQ-8p3pWUoBbyjHGGGINgvTdxyTe8c0NHaQ_-BKDczKfoRA6wLOw3g-Tq-Jh9YuYRgvNmGu3FqXcwR7BYG5j77CRdyK2XfmktEW7HPqciHZIeltSLRjohtAugUT0qC6HB1TtfrnfrbDs0bNnNHyZfqVFDob3Fn5MkYk87lPwFDI56OGzoj0C5",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "video": {
+        "src": "/videos/hero.mp4",
+        "poster": "/videos/hero-poster.jpg",
+        "alt": "Premium Suite experience film"
+      },
+      "description": "Separate living area and pool-facing windows for a more expansive stay.",
+      "longDescription": "The Premium Suite opens into a distinct living space with pool-facing light. A soaking tub, butler-ready service cues, and quieter evenings make it ideal for celebrations or a proper escape.",
+      "highlights": [
+        "Separate living & sleeping areas",
+        "Pool-facing windows",
+        "Soaking tub & rain shower",
+        "Butler service on request"
+      ],
+      "amenities": [
+        "Living area",
+        "Soaking tub",
+        "Pool view",
+        "Butler service",
+        "King bed",
+        "Nespresso",
+        "Complimentary Wi-Fi",
+        "Smart TV"
+      ],
+      "included": [
+        "Daily housekeeping & turndown",
+        "Welcome amenities",
+        "Access to spa facilities",
+        "Complimentary Wi-Fi"
+      ]
+    },
+    {
+      "slug": "presidential-suite",
+      "name": "Presidential Suite",
+      "view": "Panoramic View",
+      "guests": 2,
+      "sizeSqFt": 800,
+      "bedType": "Two bedrooms",
+      "pricePerNight": 25000,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAg99O5cqVYP9XjlaGxgWwy9ROPd9taIgVebOgarBKIcqpDQKjj1UV7VLL6LWyZmTxFnFeBrO8nc8EQ1PgdgB6r_QWsf4B0D7YrBr1i-EqUOyuzsjgMGIf2pbHqFxTscaKdP5tcwq0Txu_FTiZZH7yEwzk3EB44-jru4vSUV9Bur9RxV-pm9SP9vpkJED2nXOah0zMFsFYUkIYEdMImAI1DkBveNdbW7oJ1sntusy9mRliQTsAzzEIh",
+      "gallery": [
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuAg99O5cqVYP9XjlaGxgWwy9ROPd9taIgVebOgarBKIcqpDQKjj1UV7VLL6LWyZmTxFnFeBrO8nc8EQ1PgdgB6r_QWsf4B0D7YrBr1i-EqUOyuzsjgMGIf2pbHqFxTscaKdP5tcwq0Txu_FTiZZH7yEwzk3EB44-jru4vSUV9Bur9RxV-pm9SP9vpkJED2nXOah0zMFsFYUkIYEdMImAI1DkBveNdbW7oJ1sntusy9mRliQTsAzzEIh",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "video": {
+        "src": "/videos/hero.mp4",
+        "poster": "/videos/hero-poster.jpg",
+        "alt": "Presidential Suite cinematic tour"
+      },
+      "description": "Our signature residence with panoramic views and bespoke hospitality.",
+      "longDescription": "The Presidential Suite is The Grandview’s signature residence — panoramic light, private dining, and concierge attention that feels personal rather than procedural. Designed for milestone stays and guests who expect more space.",
+      "highlights": [
+        "Panoramic skyline & estate views",
+        "Private dining for intimate hosting",
+        "Dedicated concierge liaison",
+        "Two-bedroom layout with lounge"
+      ],
+      "amenities": [
+        "Two bedrooms",
+        "Private dining",
+        "Panoramic view",
+        "Concierge",
+        "Living lounge",
+        "Soaking tub",
+        "Complimentary Wi-Fi",
+        "Butler service"
+      ],
+      "included": [
+        "Personalised check-in",
+        "Daily housekeeping & turndown",
+        "Spa access for two",
+        "Welcome champagne on arrival"
+      ]
+    },
+    {
+      "slug": "garden-room",
+      "name": "Garden Room",
+      "view": "Garden View",
+      "guests": 2,
+      "sizeSqFt": 340,
+      "bedType": "Queen bed",
+      "pricePerNight": 9500,
+      "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Calm garden-facing room with soft natural light and a quiet corner for rest.",
+      "longDescription": "The Garden Room sits closer to greenery and quieter mornings. Soft natural light, a private balcony outlook, and a restful palette make it a favourite for guests seeking calm over the city edge.",
+      "highlights": [
+        "Garden-facing balcony outlook",
+        "Soft natural light throughout",
+        "Quiet corner seating",
+        "Complimentary Wi-Fi & rain shower"
+      ],
+      "amenities": [
+        "Queen bed",
+        "Garden balcony",
+        "Rain shower",
+        "Complimentary Wi-Fi",
+        "Smart TV",
+        "Mini fridge",
+        "In-room safe",
+        "Climate control"
+      ],
+      "included": [
+        "Daily housekeeping",
+        "Bottled water refreshed daily",
+        "Access to fitness centre",
+        "High-speed Wi-Fi"
+      ]
+    },
+    {
+      "slug": "family-suite",
+      "name": "Family Suite",
+      "view": "Courtyard View",
+      "guests": 4,
+      "sizeSqFt": 620,
+      "bedType": "Two bedrooms",
+      "pricePerNight": 18500,
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Spacious suite designed for families, with a separate lounge and flexible sleeping.",
+      "longDescription": "Built for families who want space without feeling institutional — two bedrooms, a lounge for shared evenings, and thoughtful kids amenities. Connecting options can be arranged when available.",
+      "highlights": [
+        "Two-bedroom family layout",
+        "Separate lounge for shared time",
+        "Kids amenities on request",
+        "Connecting-room option available"
+      ],
+      "amenities": [
+        "Two bedrooms",
+        "Lounge",
+        "Kids amenities",
+        "Connecting option",
+        "Complimentary Wi-Fi",
+        "Smart TV",
+        "Mini fridge",
+        "Bathrobe & slippers"
+      ],
+      "included": [
+        "Daily housekeeping",
+        "Welcome amenities for children",
+        "Access to fitness centre",
+        "Complimentary Wi-Fi"
+      ]
+    }
+  ],
+  "offers": [
+    {
+      "slug": "weekend-escape",
+      "name": "Weekend Escape",
+      "description": "Relax and unwind with our weekend special package.",
+      "priceLabel": "₹9,999",
+      "priceNote": "/ night",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAbfmMCxwoKXrZMBekHwO3EYaCNWnTcydG_pRinW5gh9TUrO2--ZcZmSgjtGsKgLv_GwMB4JOTzSEY26HGwD96-9qcF8gZjrtV0AJ31fV6_Or_nhgxeebO9LrGoSocVv7JaKc3PUrsbWqfZMnvtsxsLcp5H09rD_Bv30o1U8_hVRGM5AyQpwiO9kcVwkwghwCO-3LInrgFZ3fVW9tXcqJoXsX8c0VZEHHoMlX3RwEXDsiY9ZRPogCd6"
+    },
+    {
+      "slug": "stay-3-pay-2",
+      "name": "Stay 3 Nights, Pay for 2",
+      "description": "Stay longer and save more with this special offer.",
+      "priceLabel": "₹17,999",
+      "priceNote": "/ 3 Nights",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB1v7IO9G1MEFjLbBvgEi-p2cnuwm0UxCIhoNii-dcuG_e3JHslc5M3_TxIf6vh996GL1wwBEWAbgz05_RbKEY8YNg29WH7g4Zj2hvKJiD-4LgXJNkqOF_liIvlXi-dMUUlE3s6uiCq0f3fnaIYdMpkmOYC62ZeXMfKrUgy4kIBsFPzFRud4ubDNYeE_aGYHHEFWFytVGNmKTe_Hy2jORCsE45ZxO_dMgPBIXrmPDc7OqMVTzgD8aZM"
+    },
+    {
+      "slug": "romantic-getaway",
+      "name": "Romantic Getaway",
+      "description": "Perfect package for couples and honeymooners.",
+      "priceLabel": "₹12,999",
+      "priceNote": "/ night",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAAYYuxOeWL097bJizq4Av3BDU7Fu2RoBiD1P_hJTSL_axnnL7fvUGjJQQHn17ylAd_39fY8hkxZPMcFvaqGPZ7hsydUIyzDtdp9p3sUd2LrDSgDdT19BPiAK62GrYwOOj5MjJ-wT5C1HfjKYsEGJDTDw5hkaM4PXnP5yoJD9x_lDBJcURUwc0XZ-I0DMUEtR6GELymeZfYEck2gd6nZlcdiBnhOluB4cFqz8VS0lZpR2dOomgx1hrF"
+    },
+    {
+      "slug": "family-package",
+      "name": "Family Package",
+      "description": "Comfortable stay with exciting benefits for family.",
+      "priceLabel": "₹15,999",
+      "priceNote": "/ night",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCgDG_qn2Na-H0IoC1E_wjgBswKQVIw4Cf4RLuz92U0fl2KjYltExEKPu-LoQmAdcqa3hP13u1AivkxZEIPSU2UieagB9DJnaysAqEYbCnUzuHK58wDXRK5ZloxkNnhi6_fXAho_v8mcxWfqyiv4SQksEwVjlCGDETWUzOARcKUQtMkbtxSaFyqHxR9FZ88WH5--mP7Ww-ogjRKwXPmjBt7--HO2ts6EZ2iHKyNvxgotPKdNRGS15F1"
+    }
+  ],
+  "services": [
+    {
+      "number": "01",
+      "title": "Restaurant",
+      "description": "Seasonal ingredients, a considered wine list, and a dining room that is genuinely worth the visit."
+    },
+    {
+      "number": "02",
+      "title": "Garage & Parking",
+      "description": "Secure underground parking with valet service, EV charging, and 24-hour security on each level."
+    },
+    {
+      "number": "03",
+      "title": "Laundry",
+      "description": "Same-day laundry, dry cleaning, and pressing for all garments. Drop off by 9am and back by evening."
+    },
+    {
+      "number": "04",
+      "title": "Spa & Wellness",
+      "description": "A full-service spa with pool, sauna, steam room, and a complete treatment menu for every guest."
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Rohit Sharma",
+      "city": "New Delhi",
+      "quote": "The stay was absolutely amazing! The staff was courteous, the rooms were clean and the food was exceptional.",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Ananya Verma",
+      "city": "Mumbai",
+      "quote": "Perfect place for a weekend getaway. Beautiful property with all modern amenities.",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286db2?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Vikram Malhotra",
+      "city": "Bangalore",
+      "quote": "We celebrated our anniversary here and everything was perfect. Highly recommended!",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Priya Nair",
+      "city": "Kochi",
+      "quote": "From check-in to checkout, every detail felt intentional. The spa and dining made our family trip unforgettable.",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Arjun Mehta",
+      "city": "Ahmedabad",
+      "quote": "Quiet rooms, excellent service, and a location that made exploring effortless. We will book again.",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "name": "Sneha Kapoor",
+      "city": "Chandigarh",
+      "quote": "A refined stay with warm hospitality. The evening ambience and breakfast were standout moments.",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=200&q=80"
+    }
+  ],
+  "gallery": [
+    {
+      "type": "video",
+      "src": "/videos/hero.mp4",
+      "alt": "The Grandview property film",
+      "poster": "/videos/hero-poster.jpg",
+      "sortOrder": 0,
+      "published": true
+    },
+    {
+      "type": "image",
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuARXuEHHpGSumfL3fITMKQ_tmX0vRpMi_anKT4xnNxm_zma_E6mAvygWIoGYOyOssLvfk-DLBMDxA0WItumxjRyjE-RkRZXQ32AbzKLmpUaiy0XrVq7siOo09kk3tvYm7YwXjkACmYg15rilMf1wyGbj7PzMrLx9S5K7t53bzyNG_veAF4l0GCXU61y6HZau7ix0hWnSrBzWaip_S9JCkSc-cY2QNYkZOuP_tdy0UiHvvS8QXFLem-_",
+      "alt": "Deluxe Room",
+      "sortOrder": 1,
+      "published": true
+    },
+    {
+      "type": "image",
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuDsi2oBZbsBJk1FpCY-MoJFi7QEwFRoGm5pAZiEdR2emjb-Ws2c8Z8PKVPOEDvd8SIky92HZvKzmOzLu3S0x3GRp3G8gnLwsHaXJYNipvcOCbhHUhPbClVXqD8SwoJMsKlLv8AtPEDsSoQq0dBJZmcluBcRW0Kz99rOeN1Am49AANbiisKgN8PmDrcmwsklR8mqEuAASctos3UMZ2kL_3wuFRmkffNOmYnbB2NQHoBJrpoA90STbksV",
+      "alt": "Executive Room",
+      "sortOrder": 2,
+      "published": true
+    },
+    {
+      "type": "image",
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuDydMiL1_aHyooE1XvzwZn7PY3LEIWioWBNgWsCSngdLdWLih3jcdeDgFCwchP00AaZQ-8p3pWUoBbyjHGGGINgvTdxyTe8c0NHaQ_-BKDczKfoRA6wLOw3g-Tq-Jh9YuYRgvNmGu3FqXcwR7BYG5j77CRdyK2XfmktEW7HPqciHZIeltSLRjohtAugUT0qC6HB1TtfrnfrbDs0bNnNHyZfqVFDob3Fn5MkYk87lPwFDI56OGzoj0C5",
+      "alt": "Premium Suite",
+      "sortOrder": 3,
+      "published": true
+    },
+    {
+      "type": "video",
+      "src": "/videos/hero.mp4",
+      "alt": "Premium Suite experience film",
+      "poster": "/videos/hero-poster.jpg",
+      "sortOrder": 4,
+      "published": true
+    },
+    {
+      "type": "image",
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuAg99O5cqVYP9XjlaGxgWwy9ROPd9taIgVebOgarBKIcqpDQKjj1UV7VLL6LWyZmTxFnFeBrO8nc8EQ1PgdgB6r_QWsf4B0D7YrBr1i-EqUOyuzsjgMGIf2pbHqFxTscaKdP5tcwq0Txu_FTiZZH7yEwzk3EB44-jru4vSUV9Bur9RxV-pm9SP9vpkJED2nXOah0zMFsFYUkIYEdMImAI1DkBveNdbW7oJ1sntusy9mRliQTsAzzEIh",
+      "alt": "Presidential Suite",
+      "sortOrder": 5,
+      "published": true
+    },
+    {
+      "type": "video",
+      "src": "/videos/hero.mp4",
+      "alt": "Presidential Suite cinematic tour",
+      "poster": "/videos/hero-poster.jpg",
+      "sortOrder": 6,
+      "published": true
+    },
+    {
+      "type": "image",
+      "src": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80",
+      "alt": "Garden Room",
+      "sortOrder": 7,
+      "published": true
+    },
+    {
+      "type": "image",
+      "src": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=1200&q=80",
+      "alt": "Family Suite",
+      "sortOrder": 8,
+      "published": true
+    },
+    {
+      "type": "image",
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuAbfmMCxwoKXrZMBekHwO3EYaCNWnTcydG_pRinW5gh9TUrO2--ZcZmSgjtGsKgLv_GwMB4JOTzSEY26HGwD96-9qcF8gZjrtV0AJ31fV6_Or_nhgxeebO9LrGoSocVv7JaKc3PUrsbWqfZMnvtsxsLcp5H09rD_Bv30o1U8_hVRGM5AyQpwiO9kcVwkwghwCO-3LInrgFZ3fVW9tXcqJoXsX8c0VZEHHoMlX3RwEXDsiY9ZRPogCd6",
+      "alt": "Weekend Escape",
+      "sortOrder": 9,
+      "published": true
+    },
+    {
+      "type": "image",
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuB1v7IO9G1MEFjLbBvgEi-p2cnuwm0UxCIhoNii-dcuG_e3JHslc5M3_TxIf6vh996GL1wwBEWAbgz05_RbKEY8YNg29WH7g4Zj2hvKJiD-4LgXJNkqOF_liIvlXi-dMUUlE3s6uiCq0f3fnaIYdMpkmOYC62ZeXMfKrUgy4kIBsFPzFRud4ubDNYeE_aGYHHEFWFytVGNmKTe_Hy2jORCsE45ZxO_dMgPBIXrmPDc7OqMVTzgD8aZM",
+      "alt": "Stay 3 Nights, Pay for 2",
+      "sortOrder": 10,
+      "published": true
+    },
+    {
+      "type": "image",
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuAAYYuxOeWL097bJizq4Av3BDU7Fu2RoBiD1P_hJTSL_axnnL7fvUGjJQQHn17ylAd_39fY8hkxZPMcFvaqGPZ7hsydUIyzDtdp9p3sUd2LrDSgDdT19BPiAK62GrYwOOj5MjJ-wT5C1HfjKYsEGJDTDw5hkaM4PXnP5yoJD9x_lDBJcURUwc0XZ-I0DMUEtR6GELymeZfYEck2gd6nZlcdiBnhOluB4cFqz8VS0lZpR2dOomgx1hrF",
+      "alt": "Romantic Getaway",
+      "sortOrder": 11,
+      "published": true
+    },
+    {
+      "type": "image",
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuCgDG_qn2Na-H0IoC1E_wjgBswKQVIw4Cf4RLuz92U0fl2KjYltExEKPu-LoQmAdcqa3hP13u1AivkxZEIPSU2UieagB9DJnaysAqEYbCnUzuHK58wDXRK5ZloxkNnhi6_fXAho_v8mcxWfqyiv4SQksEwVjlCGDETWUzOARcKUQtMkbtxSaFyqHxR9FZ88WH5--mP7Ww-ogjRKwXPmjBt7--HO2ts6EZ2iHKyNvxgotPKdNRGS15F1",
+      "alt": "Family Package",
+      "sortOrder": 12,
+      "published": true
+    },
+    {
+      "type": "image",
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuCocMnK95hJkWonr1ORmAMFGbWzAhZkDgJ0MuhdqbvjtIs7RQZLueLsXlOfJUJ9F0U-jRs4x3JDBmzVNCijQ3gWOdPdDwbl0dKGFZUDbWDcDc8WUPfS68HVheNQf8MII2EFhB5vZbb44RNkG5Jrk6hUdsF4swJGtU0TmHMECuZDsdt3e6ayUZXWZn0GQDELQv2hA7kLC99JB7Y2Qai9eVXvLP2GcZUUEmkLFNrMaAgBcWdEAWk58lkT",
+      "alt": "Restaurant & Dining",
+      "sortOrder": 13,
+      "published": true
+    },
+    {
+      "type": "image",
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuB63jNUDx1VE5yEzt3rGTfPYYWDfN6vshLxuFexXr8s0eQaHGrFB2kBRA_KX1T9GNEcehGVeY2QEYabt4HpTM-20vgrmW1JRpz6VQnxFqAXS6u-6eDwEHtWjGUBZcSXwkZXlzvtywngaU0DrdkTXTqzDbggxG0w1czelQx04U8O5IzsyXJQMIfqipAQ-MAM3o0nBcZYxhEnKL-0i5CDxVr9ek9g8WPprCgABcVzMGLr9XNf7J7-GrUZ",
+      "alt": "Events & Celebrations",
+      "sortOrder": 14,
+      "published": true
+    },
+    {
+      "type": "image",
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuDR6QJ24Yixjr0dljXF5B42nitxgv7kct9poNkf_SP6KXxAYIlOIiyK1H_nmZBm9zXchk0-gVVatAKPoq5dpoSEQCpu0NAKSKmkbcxJSYZP8tpl1CV7-BN2XaZGmNIVRz-sqpMjNjUfm9VqDMq8Z7DTKorpq2S80tzfjqaklx1SpihBpOH6W8kiqszUFPEwEwdPBp3LIoej057rfY1ssPAXl7lwg1WY8_aUyp605714MUQodney_gVH",
+      "alt": "Weddings",
+      "sortOrder": 15,
+      "published": true
+    },
+    {
+      "type": "image",
+      "src": "https://lh3.googleusercontent.com/aida-public/AB6AXuD9vVCKG5_tqKsTXpH7J7ayavKd9edawBt1fBa0949gtvogGjQ5Z9cYae_zsWkRUhyI-Kk96OIx2RQ8l7c59VPf-8DecTNDCay_sJgK5tUAoeN_wq3b-mvpEALdq31hAWoZLNlxr_lsezcAGU7UkvsCxW_DBh32yUxRulHneRtU_KjJO7BIFvM_a_SUFs0dRNdt0ZoIoG1Ewy-02-nsWIRj77CsjJnPLdqDUBsX3NfxPfrg6oVorU4O",
+      "alt": "Corporate Events",
+      "sortOrder": 16,
+      "published": true
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the check-in and check-out time?",
+      "answer": "Check-in begins at 2:00 PM and check-out is by 11:00 AM. Early check-in or late check-out can be arranged subject to availability — share your preference when you book.",
+      "sortOrder": 0,
+      "published": true
+    },
+    {
+      "question": "Can I request an extra bed or crib?",
+      "answer": "Yes. Extra beds and baby cribs can be added on request for a fee. Please mention this while booking, or speak with our concierge before arrival.",
+      "sortOrder": 1,
+      "published": true
+    },
+    {
+      "question": "Is breakfast included with the room?",
+      "answer": "Breakfast is available as an add-on or package inclusion. Direct bookings may include seasonal breakfast privileges depending on the rate selected.",
+      "sortOrder": 2,
+      "published": true
+    },
+    {
+      "question": "Do rooms have a city or garden view?",
+      "answer": "Views vary by category. Deluxe and Executive rooms typically face the city or courtyard; Suites and Garden rooms offer greenery or panoramic outlooks. You can note a preference at booking.",
+      "sortOrder": 3,
+      "published": true
+    },
+    {
+      "question": "Is smoking allowed in the rooms?",
+      "answer": "All guestrooms are non-smoking. Designated outdoor smoking areas are available on property. A cleaning fee applies if smoking occurs indoors.",
+      "sortOrder": 4,
+      "published": true
+    },
+    {
+      "question": "What is your cancellation policy?",
+      "answer": "Most standard rates allow free cancellation up to 24 hours before arrival. Special offers and prepaid rates may have different terms, shown clearly at booking.",
+      "sortOrder": 5,
+      "published": true
+    }
+  ]
+}

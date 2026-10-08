@@ -5,6 +5,13 @@ export type Experience = {
   image: string;
 };
 
+export type Service = {
+  id: string;
+  number: string;
+  title: string;
+  description: string;
+};
+
 export const experiences: Experience[] = [
   {
     id: "1",
@@ -36,32 +43,36 @@ export const experiences: Experience[] = [
   },
 ];
 
-export const services = [
+export const services: Service[] = [
   {
+    id: "1",
     number: "01",
     title: "Restaurant",
     description:
       "Seasonal ingredients, a considered wine list, and a dining room that is genuinely worth the visit.",
   },
   {
+    id: "2",
     number: "02",
     title: "Garage & Parking",
     description:
       "Secure underground parking with valet service, EV charging, and 24-hour security on each level.",
   },
   {
+    id: "3",
     number: "03",
     title: "Laundry",
     description:
       "Same-day laundry, dry cleaning, and pressing for all garments. Drop off by 9am and back by evening.",
   },
   {
+    id: "4",
     number: "04",
     title: "Spa & Wellness",
     description:
       "A full-service spa with pool, sauna, steam room, and a complete treatment menu for every guest.",
   },
-] as const;
+];
 
 export const trustItems = [
   {

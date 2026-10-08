@@ -1,43 +1,29 @@
+"use client";
+
 import { ChevronDown } from "lucide-react";
+import { useQuery } from "@tanstack/react-query";
 
 import { Container } from "@/components/common/container";
 import { SectionHeader } from "@/components/common/section-header";
 import { SectionWrapper } from "@/components/common/section-wrapper";
-
-const faqs = [
-  {
-    question: "What is the check-in and check-out time?",
-    answer:
-      "Check-in begins at 2:00 PM and check-out is by 11:00 AM. Early check-in or late check-out can be arranged subject to availability — share your preference when you book.",
-  },
-  {
-    question: "Can I request an extra bed or crib?",
-    answer:
-      "Yes. Extra beds and baby cribs can be added on request for a fee. Please mention this while booking, or speak with our concierge before arrival.",
-  },
-  {
-    question: "Is breakfast included with the room?",
-    answer:
-      "Breakfast is available as an add-on or package inclusion. Direct bookings may include seasonal breakfast privileges depending on the rate selected.",
-  },
-  {
-    question: "Do rooms have a city or garden view?",
-    answer:
-      "Views vary by category. Deluxe and Executive rooms typically face the city or courtyard; Suites and Garden rooms offer greenery or panoramic outlooks. You can note a preference at booking.",
-  },
-  {
-    question: "Is smoking allowed in the rooms?",
-    answer:
-      "All guestrooms are non-smoking. Designated outdoor smoking areas are available on property. A cleaning fee applies if smoking occurs indoors.",
-  },
-  {
-    question: "What is your cancellation policy?",
-    answer:
-      "Most standard rates allow free cancellation up to 24 hours before arrival. Special offers and prepaid rates may have different terms, shown clearly at booking.",
-  },
-] as const;
+import { faqs as seedFaqs, type Faq } from "@/data/faqs";
+import { api } from "@/features/admin/api/client";
+import { resourceQueryKey } from "@/features/admin/hooks/use-resource-api";
 
 export function RoomsFaqSection() {
+  const { data } = useQuery({
+    queryKey: resourceQueryKey("faqs"),
+    queryFn: () => api.list<Faq>("faqs"),
+    placeholderData: seedFaqs,
+  });
+
+  const list = (data ?? seedFaqs)
+    .filter((faq) => faq.published !== false)
+    .slice()
+    .sort((a, b) => a.sortOrder - b.sortOrder);
+
+  if (list.length === 0) return null;
+
   return (
     <SectionWrapper spacing="default">
       <Container className="max-w-3xl">
@@ -48,8 +34,8 @@ export function RoomsFaqSection() {
         />
 
         <div className="divide-y divide-[#E8DCCB]/80 border-y border-[#E8DCCB]/80">
-          {faqs.map((faq, index) => (
-            <details key={faq.question} className="group" open={index === 0}>
+          {list.map((faq, index) => (
+            <details key={faq.id} className="group" open={index === 0}>
               <summary className="flex cursor-pointer list-none items-start gap-4 py-5 marker:content-none transition-colors hover:text-primary sm:py-6 [&::-webkit-details-marker]:hidden">
                 <span className="mt-0.5 font-sans text-xs font-bold tracking-wider text-primary tabular-nums">
                   {String(index + 1).padStart(2, "0")}
